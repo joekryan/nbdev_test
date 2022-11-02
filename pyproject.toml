@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nbdev-test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "nbdev_test"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+nbdev = "^2.3.8"
+jupyter = "^1.0.0"
+notebook = "^6.5.2"
+quarto = "^0.1.0"
+fastai = "^2.7.10"
+fastai2 = "^0.0.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
